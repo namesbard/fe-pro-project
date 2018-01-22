@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.header {
+    height: 80px;
+    background-color: tan;
+    width: calc(100% - 200px);
+}
+.content {
+    height: calc(100% - 80px);
+    background-color: palegreen;
+    width: calc(100% - 200px);
+    display: flex;
+    justify-content: flex-start;
+}
+.sidebar {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+    height: 100%;
+    background-color: gainsboro;
+}
+.block {
+    width: 150px;
+    height: 500px;
+    background-color: paleturquoise;
+    margin: 7px 7px;
+}
